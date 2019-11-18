@@ -1,0 +1,58 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.timer-wrapper {
+    background: #AAA;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+}
+
+.timer-header {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.timer-header > span {
+    display: block;
+}
+
+.timer-header > .title {
+    font: 1.4em sans-serif;
+}
+
+.timer-header > .subtitle {
+    font: 1.2em sans-serif;
+}
+
+.timer-content {
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer-content > .clock-text {
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.timer-footer {
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.timer-footer > button.start {
+    width: 60px;
+    height: 20px;
+}
