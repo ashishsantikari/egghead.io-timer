@@ -52,7 +52,7 @@ body {
     align-items: center;
 }
 
-.timer-footer > button.start {
-    width: 60px;
-    height: 20px;
+.timer-footer > button.start, button.reset {
+    width: 80px;
+    height: 40px;
 }
