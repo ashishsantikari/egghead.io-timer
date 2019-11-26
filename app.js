@@ -152,7 +152,7 @@ class TimerUI {
             if (resetBtn.textContent === 'Stop') {
                 resetBtn.innerText = 'Reset';
             }
-            Util.updateTextNode('span.clock-text', Util.secsToClock(this.time));
+            // Util.updateTextNode('span.clock-text', Util.secsToClock(this.time));
             return;
         }
         startBtn.innerText = 'Pause';
